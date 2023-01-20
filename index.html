@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form class="submission-form">
+
+    <label for="username" >Username</label>
+    <input type="text" name="username" id="username" placeholder="Username" required="true">
+    
+    <br>
+    <label for="emailaddress">E-mail Address</label>
+    <input type="email" name="emailaddress" id="emailaddress" placeholder="nihcasirawet@gmail.com">
+    <br>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" placeholder="*****"">
+    <br><br>
+    <label for="Age">Enter your age</label>
+    <br>
+    <label for="option-1">0-25 Years</label>
+    <input type="radio" name="age" id="option-1" value="0-25">
+    <br>
+    <label for="option-2">25-50 Years</label>
+    <input type="radio" name="age" id="option-2" value="0-25">
+    <br>
+    <label for="option-3">50-75 Years</label>
+    <input type="radio" name="age" id="option-3" value="0-25">
+    <br>
+    <br>
+    <label for="question">Security questions</label>
+    <br>
+    
+    <!-- value always gives the vaue you need to pass //Sent to server-->
+    <select name="question" id="question" class="secqstn">
+        <option value="question-default" id="question-default">--Kindly select--</option>
+        <option value="question1" id="question-1">1.What is your favorite movie?</option>
+        <option value="question2" id="question-2">2.What is your favorite animal?</option>
+        <option value="question4" id="question-3">3.What is your favorite color?</option>
+    </select>
+    <br>
+    <!-- http://127.0.0.1:3000/index.html?username=sachin&emailaddress=sachin%40gmail.com&password=tewark&age=0-25&question=question1&answer=dddj&secanswer=adfadf&submit= -->
+    <br>
+    <label for="answer" id="answer">Answer</label>
+    <input type="text" name="answer" id="answersec" placeholder="Your answer here">
+    <br><br>
+    <label for="secanswer">Do you want to add any comment?</label>
+    <br><br>
+    <textarea name="secanswer" id="secanswer" cols="30" rows="10" placeholder="I am good and I am bad!"></textarea>
+    <br>
+    <input type="submit" value="Submit">
+    </input>
+    <!-- <br>
+    <button id="btn-submit" name="submit" id="submit">
+    Submit
+    </button>
+    <button id="btn-submit" name="submit" id="submit">
+    Reset
+    </button> -->
+</form>
+
+<div>
+
+<!-- An element can have multiple classes but only one id -->
+
+<h1> Let us play with buttons</h1>
+
+<button class="btn btn-1">
+    First button green
+</button>
+
+<button class="btn btn-2">
+    Second button yellow
+</button>
+
+<button class="btn btn-3">
+    Third button blue
+</button>
+
+<h1 class ="header1">My Header1- <em>This will change!</em></h1>
+<h1 class="header2">My Header2 <em>This will not change!</em>
+<h1 class ="header1">My Header2- <em>This will change!</em></h1>
+</h1>
+</div>
+
+</body>
+</html>
