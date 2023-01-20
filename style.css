@@ -1,0 +1,59 @@
+/* CSS has selectors curly brackets and key value pairs*/
+
+
+/* element class and id are selectors */
+
+
+.submission-form
+{
+    max-width: 500px;
+    background-color:blanchedalmond;
+    border:2px solid orange;
+    padding:2rem;
+}
+
+.btn
+{
+    padding:10px;
+    margin:10px;
+    border:10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px;
+
+}
+
+.btn-1
+{
+    background-color: green;
+    color:whitesmoke;
+}
+.btn-2
+{
+    background-color: yellow;
+}
+.btn-3
+{
+    background-color: blue;
+    color: white;
+}
+
+#username#emailaddress
+{
+    color: green;
+}
+
+/* CSS Selector combination */
+
+/* large heading and class */
+
+h1.header1
+{
+    color:fuchsia;
+}
+
+/* id and class */
+
+#question.secqstn
+{
+    color:rgb(15, 6, 94);
+}
